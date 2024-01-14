@@ -2,16 +2,19 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: DiCARP
-message: Distributed Consensus Algorithm with Radial Partitioning
+title: Library for Modern COnvex Optimization
+message: Library for Modern COnvex Optimization
 type: software
 authors:
   - given-names: Mehdi
     family-names: Karimi
     email: mkarim3@ilstu.edu
+- given-names: Levent
+    family-names: Tuncel
+    email: levent.tuncel@uwaterloo.ca
 keywords:
-  - Distributed Algorithm
-  - Power Systems
+  - Convex Optimization
+  - Library of Examples
 license: MIT
 version: '1.0'
-repository-code: "https://github.com/mehdi-karimi-math/DiCARP"
+repository-code: "https://github.com/mehdi-karimi-math/Library-for-Modern-Convex-Optimization"
