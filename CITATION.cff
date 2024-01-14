@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: Library for Modern COnvex Optimization
+title: Library for Modern Convex Optimization
 message: Library for Modern COnvex Optimization
 type: software
 authors:
