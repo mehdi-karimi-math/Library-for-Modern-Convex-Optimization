@@ -4,7 +4,7 @@ The hyperbolic polynomials are efficiently representable as elementary symmertri
 
 The library is organized into folders, each corresponding to a different construction method for hyperbolicity cones and combined with other classes of convex optimization 
 problems. The folders are
-   - **Entropy-ESP**: These are problems are minimizing the vector entropy of a vector subject to a hyperbolic constraint and some linear constraints.
+   - **Entropy-ESP**: These are problems of minimizing the vector entropy of a vector subject to a hyperbolic constraint and some linear constraints.
    - **Projection-Hyper Cone**: These are problems of projecting a vector on a given hyperbolicity cone. The hyperbolic polynomials are:
      * elentray symmetric polynomials
      * Vamos-like hyperbolic polynomials
