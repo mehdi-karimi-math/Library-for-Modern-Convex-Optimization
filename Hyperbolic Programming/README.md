@@ -1,3 +1,4 @@
+# Hyperbolic Programming Library
 This repository provides a library of hyperbolic programming problems, a class of convex optimization problems involving constraints defined by hyperbolicity cones.
 The hyperbolic polynomials are efficiently representable as elementary symmertric polynomials. 
 
