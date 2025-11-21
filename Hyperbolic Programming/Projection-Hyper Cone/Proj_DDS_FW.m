@@ -46,7 +46,7 @@ for it=1:size(NK,1)
     
     num_var = NK(it,1);
     deg = NK(it,2);
-    filename = sprintf('c_%d_%d.mat', num_var, deg);
+    filename = sprintf('FW_DDS_results/c_%d_%d.mat', num_var, deg);
     load(filename, 'C');
 
     flag_FW = 1; %  will change to zero if FW fails in one of the instances. 
