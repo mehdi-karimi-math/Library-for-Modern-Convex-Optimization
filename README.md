@@ -1,2 +1,4 @@
 # Library-for-Modern-Convex-Optimization
-A library of problems for modern classes of convex optimization. 
+This library provides benchmark instances for classes of convex optimization problems that have recently gained practical attention. Currently, it includes two major categories: 
+- Hyperbolic programming
+- Quantum relative entropy (QRE) programming
