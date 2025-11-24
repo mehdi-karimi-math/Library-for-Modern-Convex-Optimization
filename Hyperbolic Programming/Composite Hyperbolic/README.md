@@ -10,7 +10,12 @@ and its characteristic map is $\mu \circ \lambda$.
 
 In general, there is no closed form solution for the characteristic map of a polynomial. For the special case that the hyperbolic
 polynomial is the product of linear forms, we can find a closed form solution. We represent a linear form with $d$ terms and $m$ variables
-by a $d$ by $m$ matrix where each row represents the coefficients of the variables in each term. 
+by a $d$ by $m$ matrix where each row represents the coefficients of the variables in each term. For a given matric $M$ and a direction $d$, 
+the following code creates the straight-line program for the composition of a polynomial given in `poly` and the characteristic map of the 
+polynomial defined by $M$:
+```
+generate_comp_char(M, d, poly)
+```
 
 This folder contains examples of hyperbolic polynomials as the composition of two functions. The file names are in the format
 `data_d_k_m` where $d$, $k$, and $m$ defined in the above theorem. $p$ is an elementary symmetric polynomial with parameters $(d,k)$
