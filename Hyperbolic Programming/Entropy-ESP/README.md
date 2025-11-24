@@ -8,7 +8,9 @@ $$
 \end{aligned}
 $$
 
-where $p=e_k^n(x)$ is an elemtary symmetric polynomial with $n$ variables and degree $k$, and $e$ is the vector of all $1$. This folder contains instances where $A$ is a random $\{0,1\}$ matrix, $b$ is the vector of all 1, and $\gamma=0.5$. The format of the name of the file is `data_n_k` and is in MATLAB data format. The data is ready to use with DDS by the command
+where $p=e_k^n(x)$ is an elemtary symmetric polynomial with $n$ variables and degree $k$, and $e$ is the vector of all $1$. The included file `HB_entropy` is the code to input this problem into DDS.
+
+This folder contains instances where $A$ is a random $\{0,1\}$ matrix, $b$ is the vector of all 1, and $\gamma=0.5$. The format of the name of the file is `data_n_k` and is in MATLAB data format. The data is ready to use with DDS by the command
 ```
 [x,y,info]=DDS(c,A,b,cons)
 ```
