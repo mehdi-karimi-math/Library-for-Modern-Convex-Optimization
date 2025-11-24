@@ -3,6 +3,7 @@ As discussed in the paper, the characteristic polynomials of certain matroids ar
 $$
 p^m_{VL}(x):=  e_4^{2m}(x_1,\ldots,x_{2m}) - \left(\sum_{i=2}^m x_1x_2x_{2k-1}x_{2k} \right) - \left(\sum_{i=2}^{m-1} x_{2k-1}x_{2k}x_{2k+1}x_{2k+2}\right),
 $$
+
 where $e_4^{2m}$ is an elementary symmetric polynomial with $2m$ variables and degree $4$. These polynomials can also be efficienly represented as straight-line
 programs. A DDS internal function 
 ```
