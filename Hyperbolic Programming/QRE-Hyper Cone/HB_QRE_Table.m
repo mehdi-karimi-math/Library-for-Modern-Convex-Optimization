@@ -84,3 +84,5 @@ fprintf(fid, '\n');
 
 
  end
+
+ fclose(fid);
