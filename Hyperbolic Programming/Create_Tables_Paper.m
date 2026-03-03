@@ -14,7 +14,7 @@ scriptDir_table = fileparts(mfilename('fullpath'))
 % Creating Table 1 in the paper. The result will be saved in the current 
 % folder as a file 'Table-1.txt', given in Latex format. 
 
-% run(fullfile(scriptDir_table,'Entropy-ESP\HB_entropy_Table'));
+run(fullfile(scriptDir_table,'Entropy-ESP\HB_entropy_Table'));
 
 % Creating Table 2 in the paper. The result will be saved in the current 
 % folder as a file 'Table-2.txt', given in Latex format. 
@@ -39,5 +39,15 @@ run(fullfile(scriptDir_table,'Composite Hyperbolic\Proj_DDS_Comp_Table'));
 % folder as a file 'Table-5.txt', given in Latex format. 
 
 run(fullfile(scriptDir_table,'QRE-Hyper Cone\HB_QRE_Table'));
+
+% Creating Figure 2. The result will be saved as two figures, Homo-1 and
+% Homo 2. 
+
+run(fullfile(scriptDir_table,'DDS_Homotopy_Fig'));
+
+% Creating Table 6 in the paper. The result will be saved in the current 
+% folder as a file 'Table-6.txt', given in Latex format. 
+
+run(fullfile(scriptDir_table,'HB_Unbounded\HB_double_unbounded'));
 
 
