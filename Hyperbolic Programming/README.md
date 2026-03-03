@@ -14,7 +14,7 @@ The hyperbolic polynomials are efficiently representable as elementary symmertri
   ```
   There is a varaible `short_version`, which is set to `true` by default. This generates shortened versions of the tables. To generate the full tables reported in the paper, set: `short_version = false;`. Note that some
   larger benchmark instances may require up to approximately 4000 seconds to complete. 
-- **Output Files**: The generated tables will be saved as separate text files (in LaTeX format) inside the `Hyperbolic Programming` folder. 
+- **Output Files**: The generated tables will be saved as separate text files (in LaTeX format) inside the `Hyperbolic Programming` folder. Two generated figures will also be saved in the same folder. 
 - **Reproducing Table 2 (DDS vs. Frank–Wolfe)**: To reproduce Table 2, download the Frank–Wolfe (FW) implementation from: [https://github.com/bflourenco/dfw_projection](https://github.com/bflourenco/dfw_projection).
  Place the folder `solver` inside the `Hyperbolic Programming` directly before running the `Create_Tables_Paper.m` file.
 - Table 1 includes results from DDS 2.2. This older version is not included in the current repository. Those results were generated separately using DDS 2.2. 
