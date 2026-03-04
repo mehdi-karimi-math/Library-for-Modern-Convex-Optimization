@@ -26,7 +26,7 @@ fprintf(fid, '\n');
 
 for it=1:size(file_list,1)
     scriptDir= fileparts(mfilename('fullpath'))
-    outputFile = fullfile(scriptDir, 'mat_files', file_list{it});
+    outputFile = fullfile(scriptDir, 'mat-files', file_list{it});
     load(outputFile);
     
     for k=1:size(cons,1)
