@@ -17,7 +17,7 @@ Many interesting hyperbolic polynomials are efficiently representable as straigh
 - **Output Files**: The generated tables will be saved as separate text files (in LaTeX format) inside the `Hyperbolic Programming` folder. Two generated figures will also be saved in the same folder. 
 - **Reproducing Table 2 (DDS vs. Frank–Wolfe)**: To reproduce Table 2, download the Frank–Wolfe (FW) implementation from: [https://github.com/bflourenco/dfw_projection](https://github.com/bflourenco/dfw_projection).
  Place the folder `solver` inside the `Hyperbolic Programming` directly before running the `Create_Tables_Paper.m` file.
-- Table 1 includes results from DDS 2.2. This older version is not included in the current repository. Those results were generated separately using DDS 2.2. 
+- Table 1 and Table 7 include results from DDS 2.2. This older version is not included in the current repository. Those results were generated separately using DDS 2.2. 
   
   
 ## Benchmark Details
@@ -30,3 +30,4 @@ problems. The folders are
      * Vamos-like hyperbolic polynomials
    - **Composite Hyperbolic**: The hyperbolic polynomails in these problems are created by composing two hyperbolic polynomials.
    - **QRE-Hyper cone**: These problems are minimizing the quantum relative entropy of two matrix pencils subject to a hyperbolic constraint and some linear constraints.
+   - **HB_Unbounded**: These problems involve two hyperbolicity cones and can be unbounded or have an optimal solution.  
