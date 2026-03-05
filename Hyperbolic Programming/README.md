@@ -1,6 +1,6 @@
 # Hyperbolic Programming Library
 This repository provides a library of hyperbolic programming problems, a class of convex optimization problems involving constraints defined by hyperbolicity cones.
-The hyperbolic polynomials are efficiently representable as elementary symmertric polynomials. To learn more about our recent advances in hyperbolic programming, including the new straight-line program (SLP) framework, the release of DDS 3.0, and the development of this benchmarking library, please refer to our manuscript:
+Many interesting hyperbolic polynomials are efficiently representable as straight-line programs. To learn more about our recent advances in hyperbolic programming, including the new straight-line program (SLP) framework, the release of DDS 3.0, and the development of this benchmarking library, please refer to our manuscript:
 
 [Efficient Interior-Point Methods for Hyperbolic Programming via Straight-Line Programs](https://arxiv.org/abs/2602.23260)
 
