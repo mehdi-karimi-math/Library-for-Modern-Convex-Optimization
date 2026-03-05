@@ -28,5 +28,5 @@ problems. The folders are
    - **Projection-Hyper Cone**: These are problems of projecting a vector on a given hyperbolicity cone. The hyperbolic polynomials are:
      * Elementary symmetric polynomials
      * Vamos-like hyperbolic polynomials
-   - **Composite Hyperbolic**: The hyperbolic polynomails in these problems are created by compositing two hyperbolic polynomials.
-   - **QRE-Hyper cone**: These problems are minimizing the quantum relative entropy of two matrix pencils subject to a hyperbolic constrait and some linear constraints.
+   - **Composite Hyperbolic**: The hyperbolic polynomails in these problems are created by composing two hyperbolic polynomials.
+   - **QRE-Hyper cone**: These problems are minimizing the quantum relative entropy of two matrix pencils subject to a hyperbolic constraint and some linear constraints.
